@@ -54,6 +54,30 @@
         .button:hover {
             background-color: #45a049;
         }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        .feature {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1rem;
+        }
+        .feature h3 {
+            margin: 0 0 1rem 0;
+        }
     </style>
 </head>
 <body>
@@ -71,6 +95,26 @@
             <h2>About the Project</h2>
             <p>The Integrated Attendance Management System (IAMS) is a web and mobile application designed to streamline the process of attendance marking in various institutions. The app integrates user profiles, messaging, notifications, media sharing, and ID card, face, and fingerprint scanning technologies.</p>
             <a href="https://deployed-app-link.com" class="button">View Deployed Application</a>
+        </section>
+        <section id="features">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="feature1-image.jpg" alt="Feature 1 Image">
+                    <h3>Real-time Attendance Tracking</h3>
+                    <p>Track attendance in real-time using ID card, face, and fingerprint scanning technologies. Ensure accurate and efficient attendance marking.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature2-image.jpg" alt="Feature 2 Image">
+                    <h3>Instant Notifications</h3>
+                    <p>Receive instant notifications for attendance updates, messages, and important announcements. Stay informed and connected at all times.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature3-image.jpg" alt="Feature 3 Image">
+                    <h3>Comprehensive Reports</h3>
+                    <p>Generate comprehensive attendance reports with detailed analytics. Monitor attendance patterns and make data-driven decisions.</p>
+                </div>
+            </div>
         </section>
     </div>
 </body>
